@@ -13,10 +13,10 @@
     <script src="gesture-handler.js"></script>
 
     <!-- <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script> -->
-    <script src="https://unpkg.com/aframe-click-drag-component"></script>
+    <!-- <script src="https://unpkg.com/aframe-click-drag-component"></script>
     <script>
       registerAframeClickDragComponent(window.AFRAME);
-    </script>
+    </script> -->
     </head>
 
   <body>
@@ -43,15 +43,15 @@
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
       >
-    <a-sphere click-drag position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-    <a-camera look-controls-enabled="false"></a-camera>
+    <!-- <a-sphere click-drag position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+    <a-camera look-controls-enabled="false"></a-camera> -->
       <!-- <a-box 
       position="0 0 0"
       scale="0.5 0.5 0.5"
       class="clickable"
       gesture-handler>
     </a-box> -->
-        <!-- <a-entity
+        <a-entity
           id="bowser-model"
           gltf-model="#bowser"
           position="0 0 0"
@@ -59,7 +59,7 @@
           class="clickable"
           gesture-handler
         >
-        </a-entity> -->
+        </a-entity>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
