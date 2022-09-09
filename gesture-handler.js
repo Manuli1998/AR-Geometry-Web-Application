@@ -29,21 +29,9 @@ AFRAME.registerComponent("gesture-handler", {
     if (this.data.enabled) {
       this.el.sceneEl.addEventListener("onefingermove", this.handleRotation);
       this.el.sceneEl.addEventListener("twofingermove", this.handleScale);
-      this.el.addEventListener('drag-drop', function(evt) {
-        evt.detail.dropped.setAttribute('material', 'color',
-          '#'+(Math.random()*0xFFFFFF<<0).toString(16))
-         // notify super-hands that the gesture was accepted
-        evt.preventDefault()
-      })
     } else {
       this.el.sceneEl.removeEventListener("onefingermove", this.handleRotation);
       this.el.sceneEl.removeEventListener("twofingermove", this.handleScale);
-      this.el.removeEventListener('drag-drop', function(evt) {
-        evt.detail.dropped.setAttribute('material', 'color',
-          '#'+(Math.random()*0xFFFFFF<<0).toString(16))
-         // notify super-hands that the gesture was accepted
-        evt.preventDefault()
-      })
     }
   },
 
