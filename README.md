@@ -9,13 +9,10 @@ Scale and rotate 3D elements from your AR.js scene using `gesture-detector` and 
 
 ## Try now!
 
-#### Image Tracking
-
-🚀[Open this sample](https://fcor.github.io/arjs-gestures/image-tracking.html) on your phone and [scan this picture](https://raw.githubusercontent.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex-image-big.jpeg)
 
 #### Marker Tracking
 
-🚀[Open this sample](https://fcor.github.io/arjs-gestures/index.html) on your phone and [scan this marker](https://killcloud.nyc3.digitaloceanspaces.com/assets/Hiro_marker_ARjs.png)
+🚀[Open this sample](https://github.com/Manuli1998/AR-Geometry-Web-Application/blob/main/index.html) on your phone and [scan this marker](https://killcloud.nyc3.digitaloceanspaces.com/assets/Hiro_marker_ARjs.png)
 
 ## Installation
 
