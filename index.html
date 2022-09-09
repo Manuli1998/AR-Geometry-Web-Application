@@ -12,20 +12,19 @@
     <script src="gesture-detector.js"></script>
     <script src="gesture-handler.js"></script>
 
-    <!-- <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script> -->
-    <script src="https://unpkg.com/aframe-click-drag-component"></script>
-    <script>
-      registerAframeClickDragComponent(window.AFRAME);
-    </script>
+    <meta name="8thwall:renderer" content="aframe:1.2.0">
+    <meta name="8thwall:package" content="@8thwall.xrextras">
+    <meta name="8thwall:package" content="@8thwall.landing-page">
     </head>
 
   <body>
     <a-scene
-      arjs
-      embedded
-      renderer="logarithmicDepthBuffer: true;"
-      vr-mode-ui="enabled: false"
-      gesture-detector
+    xrextras-gesture-detector
+    landing-page
+    xrextras-loading
+    xrextras-runtime-error
+    renderer="colorManagement: true"
+    xrweb="allowedDevices: any">
       id="scene"
     >
       <a-assets>
@@ -43,14 +42,15 @@
         cursor="fuse: false; rayOrigin: mouse;"
         id="markerA"
       >
-    <a-sphere click-drag position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-    <a-camera look-controls-enabled="false"></a-camera>
-      <!-- <a-box 
+   
+      <a-box 
       position="0 0 0"
       scale="0.5 0.5 0.5"
-      class="clickable"
-      gesture-handler>
-    </a-box> -->
+      class="cantap" 
+    xrextras-hold-drag 
+    xrextras-two-finger-rotate 
+    xrextras-pinch-scale>
+    </a-box>
         <!-- <a-entity
           id="bowser-model"
           gltf-model="#bowser"
