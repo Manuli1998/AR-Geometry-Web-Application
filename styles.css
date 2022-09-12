@@ -6,6 +6,7 @@ body {
 .buttons {
   z-index: 10;
   display: flex;
+  margin-left: 50%;
   justify-content: center;
 
 
