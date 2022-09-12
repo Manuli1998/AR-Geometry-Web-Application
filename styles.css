@@ -2,3 +2,18 @@ body {
   margin: 0px;
   overflow: hidden;
 }
+
+.buttons {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+
+
+}
+.cube,.cylinder,.cone,.sphere{
+  background: blue;
+  color: white;
+  border: none;
+  font-size: 1em;
+  font-weight: 900;  padding: 10px;
+}
