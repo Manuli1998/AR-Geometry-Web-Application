@@ -12,23 +12,31 @@ body {
 
 }
 .cube{
-  background: blue;
+  background:#0ee7b2;
   color: white;
   border: none;
   z-index: 10;
   font-size: 1em;
   font-weight: 900;  
   padding: 10px;
-  margin-left: 35%;
+  margin-left: 40%;
 
 }
 
 .cylinder,.cone,.sphere{
-  background: blueviolet;
   color: white;
   border: none;
   font-size: 1em;
   font-weight: 900;  
   padding: 10px;
 
+}
+.cylinder{
+  background: #7510b5;
+}
+.cone{
+  background:"#330ee7";
+}
+.sphere{
+  background: #e70e3b;
 }
