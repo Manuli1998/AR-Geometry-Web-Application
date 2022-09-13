@@ -9,13 +9,24 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-
+  border: 3px solid green;
 
 }
-.cube,.cylinder,.cone,.sphere{
+.cube{
   background: blue;
   color: white;
   border: none;
   font-size: 1em;
   font-weight: 900;  padding: 10px;
+  margin-left: 20%;
+
+}
+
+.cylinder,.cone,.sphere{
+  background: blue;
+  color: white;
+  border: none;
+  font-size: 1em;
+  font-weight: 900;  padding: 10px;
+
 }
