@@ -16,7 +16,7 @@
   <body>
 
     <a-scene
-      style="height: 90%"
+      style="height: 70%"
       arjs
       embedded
       renderer="logarithmicDepthBuffer: true;"
@@ -42,13 +42,13 @@
 
       <a-box
         position="0 0 0"
-        rotation="0 45 0"
+        rotation="0 0 0"
         color="#4CC3D9">
       </a-box>
 
     <a-sphere 
         position="0 0 0" 
-        radius="1.25" 
+        radius="0.5" 
         color="#EF2D5E" 
         visible="false">
     </a-sphere>
@@ -64,7 +64,7 @@
     <a-cone
     color="tomato"
     position="0 0 0"
-    radius-bottom="2" 
+    radius-bottom="1" 
     color="#FFC65D"
     radius-top="0.5"
     visible="false">
@@ -76,8 +76,7 @@
     </a-scene>
 
 
-    <div id="butttons"
-    display="flex">
+    <div id="butttons">
       <button class="cube">Cube</button>
       <button class="sphere">Sphere</button>
       <button class="cylinder">Cylinder</button>
